@@ -1,0 +1,35 @@
+
+<html>
+    <body>
+        <form method="post">
+            <table>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" name="user_name " value="<%= user_array.user_name %>" require></td>
+                </tr>
+
+                <tr>
+                    <td>email:</td>
+                    <td><input type="text" name="user_email " value="<%= user_array.user_email %>" require></td>
+                </tr>
+
+                <tr>
+                    <td>password:</td>
+                    <td><input type="text" name="user_password " value="<%= user_array.user_password %>" require></td>
+                </tr>
+
+                <tr>
+                    <td>mobile:</td>
+                    <td><input type="number" name="user_mobile " value="<%= user_array.user_mobile %>" require></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="submit">
+                        <input type="button" value="display" onclick="window.Location='display';">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
